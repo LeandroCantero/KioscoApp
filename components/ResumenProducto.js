@@ -27,7 +27,7 @@ function ResumenProducto({ producto }) {
       <div>
         <button
           type="button"
-          className="bg-sky-700 flex gap-2 px-5 py-2 rounded-md font-bold uppercase shadow-md w-full lg:w-auto text-white"
+          className="bg-sky-700 flex gap-2 px-5 py-2 rounded-md font-bold uppercase shadow-md w-full text-white"
           onClick={() => handleEditarCantidades(producto.id)}
         >
           <svg
