@@ -1,4 +1,4 @@
-import Layout from "../layout/layout"
+import Layout from "../layout/Layout"
 import { useEffect, useCallback } from "react";
 import useKiosco from "../hooks/useKiosco";
 import { formatearDienero } from "../helpers";
